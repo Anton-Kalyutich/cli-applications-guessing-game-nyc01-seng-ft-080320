@@ -1,5 +1,5 @@
 def computer_choice
-  rand(1..6).to_s
+  rand(6) + 1.to_s
 end
 
 def prompt_user
